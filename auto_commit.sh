@@ -4,11 +4,11 @@
 set -e  
 
 # Configure Git user (Run this once manually; remove after setup)
-git config --global user.name "your-username"
-git config --global user.email "your-email@example.com"
+git config --global user.name "adityanation"
+git config --global user.email "adityasinha06841@gmail.com"
 
 # Navigate to the Git repository (Change this to your repo path)
-cd /path/to/your/repository || exit
+cd https://github.com/adityanation/Automation-Script || exit
 
 # Ensure the repository is up-to-date
 git pull origin main  # Change 'main' to 'master' if needed

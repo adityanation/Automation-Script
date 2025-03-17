@@ -1,20 +1,25 @@
 # Automation Script for Shell
 
 ## Overview
+
 This repository contains an automation script written in Shell (Bash) to streamline repetitive tasks such as file management, backups, system updates, or deployment processes. The script is designed to run on Unix-based systems like Linux and macOS.
 
 ## Features
+
 - Automates routine tasks to improve efficiency.
 - Supports logging for debugging and monitoring.
 - Customizable options to suit different use cases.
 - Error handling for stability and reliability.
 
 ## Prerequisites
+
 Ensure the following dependencies are installed on your system:
+
 - Bash (v4.0 or higher)
 - Required system utilities (varies based on the script’s functionality)
 
 ## Installation
+
 1. Clone the repository:
    ```sh
    git clone https://github.com/your-username/your-repository.git
@@ -30,37 +35,47 @@ Ensure the following dependencies are installed on your system:
    ```
 
 ## Usage
+
 Run the script with:
+
 ```sh
 ./automation-script.sh [options]
 ```
+
 Example:
+
 ```sh
 ./automation-script.sh --backup /path/to/directory
 ```
 
 ### Available Options
-| Option       | Description                                  |
-|-------------|--------------------------------|
+
+| Option           | Description                                 |
+| ---------------- | ------------------------------------------- |
 | `--backup [dir]` | Creates a backup of the specified directory |
-| `--clean`        | Deletes temporary files                 |
-| `--update`       | Updates system packages                 |
-| `--help`         | Displays help information               |
+| `--clean`        | Deletes temporary files                     |
+| `--update`       | Updates system packages                     |
+| `--help`         | Displays help information                   |
 
 ## Configuration
+
 Modify the script variables to customize its behavior:
+
 ```sh
 BACKUP_DIR="/default/backup/location"
 LOG_FILE="/var/log/automation.log"
 ```
 
 ## Logging
+
 The script logs important events to `automation.log`. View logs with:
+
 ```sh
 tail -f /var/log/automation.log
 ```
 
 ## Contributing
+
 1. Fork the repository.
 2. Create a new branch: `git checkout -b feature-branch`
 3. Commit changes: `git commit -m 'Add new feature'`
@@ -68,7 +83,10 @@ tail -f /var/log/automation.log
 5. Create a Pull Request.
 
 ## License
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+
+This project is licensed under the MIT License. See LICENSE for details.
 
 ## Contact
+
 For issues or suggestions, open an issue on GitHub or reach out via email at `adityasinha06841@gmail.com`.
+
